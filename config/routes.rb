@@ -4,6 +4,7 @@ namespace :v1 do
   post 'user/create', to: 'users#create'
   get 'user/show/:id', to: 'users#show'
   get 'user/index', to: 'users#index'
+  get 'user/delete/:id', to: 'users#delete'
   post 'tweet/:id', to: 'tweets#create'
   get 'tweet/show/:id/:tweets_id', to: 'tweets#show'
   get 'tweet/all/:id',to: 'tweets#showall'
